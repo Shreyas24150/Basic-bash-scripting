@@ -1,20 +1,20 @@
 # Basic-bash-scripting
 🔥 SYNTAX YOU NEED:
 #!/bin/bash
-# Variables
+#Variables
 name="Shreyas"
 echo "Hello $name"
-# If-Else
+#If-Else
 if [ -f "/etc/passwd" ]; then
   echo "File exists"
 else
   echo "Missing"
 fi
-# Loops
+#Loops
 for i in {1..5}; do
   echo "Count $i"
 done
-# Functions
+#Functions
 say_hello() {
   echo "Hello from function!"
 }
